@@ -4,6 +4,7 @@ import microConfig from "./mikro-orm.config";
 
 const main = async () => {
   const orm = await MikroORM.init(microConfig);
+  await orm.getMigrator().up(); //runs migrations
 };
 
 main();
