@@ -1,3 +1,4 @@
+import "reflect-metadata";
 import { MikroORM } from "@mikro-orm/core";
 import { __prod__ } from "./constants";
 import microConfig from "./mikro-orm.config";
@@ -31,3 +32,5 @@ const main = async () => {
 };
 
 main();
+
+/* https://youtu.be/I6ypD7qv3Z8?t=3419 */
